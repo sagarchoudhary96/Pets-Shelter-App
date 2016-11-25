@@ -15,8 +15,8 @@
  */
 package com.example.android.pets;
 
+import android.content.ContentUris;
 import android.content.ContentValues;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
@@ -31,7 +31,6 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import com.example.android.pets.data.PetContract.PetEntry;
-import com.example.android.pets.data.PetDbHelper;
 
 /**
  * Allows user to create a new pet or edit an existing one.
@@ -121,13 +120,6 @@ public class EditorActivity extends AppCompatActivity {
         String weightString = mWeightEditText.getText().toString().trim();
         int weight = Integer.parseInt(weightString);
 
-        // Get the reference to database helper
-        PetDbHelper mDbHelper = new PetDbHelper(this);
-
-        //get the database in write mode
-        SQLiteDatabase db = mDbHelper.getWritableDatabase();
-
-
         //Create the content values to be inserted into the database
         ContentValues values = new ContentValues();
         values.put(PetEntry.COLUMN_PET_NAME, nameString);
@@ -135,14 +127,14 @@ public class EditorActivity extends AppCompatActivity {
         values.put(PetEntry.COLUMN_PET_GENDER,mGender);
         values.put(PetEntry.COLUMN_PET_WEIGHT, weight);
 
-        long newRowId = db.insert(PetEntry.TABLE_NAME, null, values);
+        long newRowId = ContentUris.parseId(getContentResolver().insert(PetEntry.CONTENT_URI, values));
 
 
         //Toast to show whether the insertion in database is sucessful or not
         if (newRowId == -1) {
-            Toast.makeText(this, "Error with saving pet", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.editor_insert_pet_failed), Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(this, "Pet saved with row id: " + newRowId, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.editor_insert_pet_successful) + newRowId, Toast.LENGTH_SHORT).show();
         }
     }
 

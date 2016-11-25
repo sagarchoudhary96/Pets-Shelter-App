@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="71d4a33b4ffbf0a219d6d4ff04c9f748f9cafa57">
+        sha1="574566ded75f761779c9086cebe16e081ffd80a7">
         <dex dex="F:\PERSONAL\Udacity\Android Basics Nanodegree\Pets-Shelter-App\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f3372c331c360f18d117495b078a37e2732738aa\classes.dex" />
     </item>
     <item
@@ -88,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="8bd413fb7f787565d5cd317a4e004635da9d599b">
+        sha1="9ae78b8967b5540d0d77cd9423964292005c2435">
         <dex dex="F:\PERSONAL\Udacity\Android Basics Nanodegree\Pets-Shelter-App\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4173fb97849141707d3941ddcc0522b3f8bbe9f2\classes.dex" />
     </item>
 
