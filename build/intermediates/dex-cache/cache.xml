@@ -21,33 +21,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="F:\PERSONAL\Udacity\Android Basics Nanodegree\Pets-Shelter-App\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="f62e763609f65e47dc6c498760a4accf02776788">
-        <dex dex="F:\PERSONAL\Udacity\Android Basics Nanodegree\Pets-Shelter-App\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_cb581505064b93e81b7ad225d060c65d60f9f0a5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\PERSONAL\Udacity\Android Basics Nanodegree\Pets-Shelter-App\app\build\intermediates\exploded-aar\com.android.support\design\24.1.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
-        <dex dex="F:\PERSONAL\Udacity\Android Basics Nanodegree\Pets-Shelter-App\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.1.1_a0c9a12aa91f56e73e2129589371ea6525b2f164\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="F:\PERSONAL\Udacity\Android Basics Nanodegree\Pets-Shelter-App\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="574566ded75f761779c9086cebe16e081ffd80a7">
-        <dex dex="F:\PERSONAL\Udacity\Android Basics Nanodegree\Pets-Shelter-App\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f3372c331c360f18d117495b078a37e2732738aa\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="F:\PERSONAL\Udacity\Android Basics Nanodegree\Pets-Shelter-App\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -75,6 +48,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="F:\PERSONAL\Udacity\Android Basics Nanodegree\Pets-Shelter-App\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="F:\PERSONAL\Udacity\Android Basics Nanodegree\Pets-Shelter-App\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_cb581505064b93e81b7ad225d060c65d60f9f0a5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="F:\PERSONAL\Udacity\Android Basics Nanodegree\Pets-Shelter-App\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -84,12 +66,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="F:\PERSONAL\Udacity\Android Basics Nanodegree\Pets-Shelter-App\app\build\intermediates\exploded-aar\com.android.support\design\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e195bd694d5389acfba27ff4fdfa64c4c65b2c05">
+        <dex dex="F:\PERSONAL\Udacity\Android Basics Nanodegree\Pets-Shelter-App\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.1.1_a0c9a12aa91f56e73e2129589371ea6525b2f164\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="F:\PERSONAL\Udacity\Android Basics Nanodegree\Pets-Shelter-App\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="9ae78b8967b5540d0d77cd9423964292005c2435">
+        sha1="4262099580688bb9ff58a635bc89167bac15f15d">
         <dex dex="F:\PERSONAL\Udacity\Android Basics Nanodegree\Pets-Shelter-App\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4173fb97849141707d3941ddcc0522b3f8bbe9f2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\PERSONAL\Udacity\Android Basics Nanodegree\Pets-Shelter-App\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="efcbdc471901c0a45b92d96f195cefbe25884fbc">
+        <dex dex="F:\PERSONAL\Udacity\Android Basics Nanodegree\Pets-Shelter-App\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f3372c331c360f18d117495b078a37e2732738aa\classes.dex" />
     </item>
 
 </items>
